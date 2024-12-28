@@ -1,0 +1,15 @@
+#container{/*id*/
+    height: 200px;
+    display: flex; /*to make seperate  bars*/
+    align-items: flex-end; /*to align bars at bottom*/
+}
+body{/*elemrnt*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;/*heading first then bars*/
+}
+.bar{/*class*/
+    width: 10px;
+    background-color: black;
+    margin: 1px;
+}
